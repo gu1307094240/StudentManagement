@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.daniel.model">
+	
+	<class name = "Achievement" table = "achievement">
+		<id name="id">
+			<generator class="identity"/>
+		</id>
+		<property name = "snumber" />
+		<property name = "cnumber" />
+		<property name = "score" />
+	</class>
+
+</hibernate-mapping>
